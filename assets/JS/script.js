@@ -51,9 +51,9 @@ for(let i in team){
   list.innerHTML += `
   <li>
     <ul>
+    <li class="image"><img src="${utente.image}"></li>
       <li>${utente.firstname}</li>
       <li>${utente.role}</li>
-      <li class="image"><img src="${utente.image}"></li>
     </ul
   </li>
   `
