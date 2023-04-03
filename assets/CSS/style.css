@@ -24,11 +24,22 @@ body{
 ul{
   list-style: none;
   /* debug */
-  background-color: #aaa;
+  background-color: salmon;
+}
+
+ul#list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul#list > li{
+  width: calc(100% / 3);
+  padding: 20px;
+  background-color: #bbb;
 }
 
 li{
   /* debug */
-  background-color: #fff4;
+  /* background-color: #fff4; */
   border: 1px solid black;
 }

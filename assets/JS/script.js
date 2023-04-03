@@ -49,10 +49,13 @@ for(let i in team){
   console.log("indice", i, "utente", utente)
   
   list.innerHTML += `
-  <li>${utente.firstname}</li>
-  <li>${utente.role}</li>
-  <li>${utente.image}</li>
-  <li>---------------</li>
+  <li>
+    <ul>
+      <li>${utente.firstname}</li>
+      <li>${utente.role}</li>
+      <li>${utente.image}</li>
+    </ul
+  </li>
   `
 }
 
