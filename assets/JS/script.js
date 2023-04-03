@@ -1,4 +1,7 @@
+//prendo la lista
+const list = document.getElementById("list");
 
+//array utenti del team
 const team = [
   {
     firstname: "Wayne Barnett",
@@ -37,12 +40,21 @@ const team = [
   }
 ]
 console.log(team)
-console.warn("primo membro", team[0])
+console.warn("primo utente", team[0])
 
 
 //ciclo per stampare tutti i membri "for in"
 for(let i in team){
-  console.log("indice", i, "membro", team[i])
+  const utente = team[i]
+  console.log("indice", i, "utente", utente)
+  
+  list.innerHTML += `
+  <li>${utente.firstname}</li>
+  <li>${utente.role}</li>
+  <li>${utente.image}</li>
+  <li>---------------</li>
+  `
 }
+
 
 //---------------------------------------------------

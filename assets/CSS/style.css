@@ -9,3 +9,26 @@ body{
   height: 100vh;
   background-color: #cecece;
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  width: 80%;
+  max-width: 1200px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+ul{
+  list-style: none;
+  /* debug */
+  background-color: #aaa;
+}
+
+li{
+  /* debug */
+  background-color: #fff4;
+  border: 1px solid black;
+}
