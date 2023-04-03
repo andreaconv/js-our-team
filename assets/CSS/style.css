@@ -6,7 +6,6 @@
 
 body{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  height: 100vh;
   background-color: #cecece;
 }
 
@@ -23,8 +22,6 @@ body{
 
 ul{
   list-style: none;
-  /* debug */
-  background-color: salmon;
 }
 
 ul#list{
@@ -35,11 +32,18 @@ ul#list{
 ul#list > li{
   width: calc(100% / 3);
   padding: 20px;
-  background-color: #bbb;
 }
 
 li{
-  /* debug */
-  /* background-color: #fff4; */
-  border: 1px solid black;
+  text-align: center;
+}
+
+li.image{
+  /* width: 100%; */
+}
+
+li.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }

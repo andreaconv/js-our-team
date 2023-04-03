@@ -53,7 +53,7 @@ for(let i in team){
     <ul>
       <li>${utente.firstname}</li>
       <li>${utente.role}</li>
-      <li>${utente.image}</li>
+      <li class="image"><img src="${utente.image}"></li>
     </ul
   </li>
   `
