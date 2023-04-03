@@ -33,3 +33,9 @@ Ragioniamo come sempre a step.
 Prima la logica in italiano e poi traduciamo in codice.
 E ricordiamoci che console.log() è nostro amico!
 
+---
+
+## STEPS
+
+1. Creo l'array di oggetti con le informazioni fornite;
+2. Stampo in console le informazioni di ogni utente utilizando un ciclo;
